@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ecartweb/static/css/main.8e00c811.css",
+    "main.css": "/ecartweb/static/css/main.3fddae40.css",
     "main.js": "/ecartweb/static/js/main.498d86be.js",
     "static/media/Chocolatebar.png": "/ecartweb/static/media/Chocolatebar.e8712af5a8d3ad9deda6.png",
     "static/media/iphone.png": "/ecartweb/static/media/iphone.5e2f806c9de400cd905c.png",
@@ -45,11 +45,11 @@
     "static/media/dj.png": "/ecartweb/static/media/dj.02242f6e13f024f3be3d.png",
     "static/media/logo.svg": "/ecartweb/static/media/logo.ef09c2364b1c277c08ea0096f1903145.svg",
     "index.html": "/ecartweb/index.html",
-    "main.8e00c811.css.map": "/ecartweb/static/css/main.8e00c811.css.map",
+    "main.3fddae40.css.map": "/ecartweb/static/css/main.3fddae40.css.map",
     "main.498d86be.js.map": "/ecartweb/static/js/main.498d86be.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e00c811.css",
+    "static/css/main.3fddae40.css",
     "static/js/main.498d86be.js"
   ]
 }
