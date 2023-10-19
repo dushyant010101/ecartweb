@@ -1,0 +1,68 @@
+.newslatter {
+  width: 65%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #f1cff4, #e1ffea22 60%);
+  gap: 10px;
+}
+.newslatter h2 {
+  color: #454545;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.newslatter p {
+  color: #454545;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.newslatter div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  width: 80%;
+  height: 40px;
+  border-radius: 80px;
+  border: 1px solid #e3e3e3;
+}
+
+.newslatter input {
+  width: 100%;
+  margin-left: 30px;
+  border: none;
+  outline: none;
+  color: #616161;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.newslatter div button {
+  width: 210px;
+  height: 40px;
+  border-radius: 80px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .newslatter {
+    width: 80%;
+    height: 20vh;
+  }
+  .newslatter h2 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .newslatter p {
+    font-size: 10px;
+  }
+}

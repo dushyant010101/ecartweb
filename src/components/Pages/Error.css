@@ -1,0 +1,52 @@
+.err-container {
+  position: relative;
+  /* top: 20%;
+  left: 17%;
+  right: 17%;
+  bottom: 20%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.err-container .err-div {
+  max-width: 600px;
+  text-align: center;
+}
+.err-div h2 {
+  font-size: 18vh;
+  line-height: 1em;
+}
+
+.err-div h3 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  max-width: 600px;
+  font-size: 2rem;
+}
+
+.err-div p {
+  font-size: 1.2em;
+  color: #0d0d0d;
+}
+
+.err-div .btn{
+    margin: 25px 0;
+    display: inline-flex;
+    border: 2px solid #69a6ce;
+    color: #69a6ce;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+
+}
+.err-div .btn:hover{
+    background: #69a6ce;
+    color: #fff;
+
+
+}

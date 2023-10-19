@@ -1,0 +1,133 @@
+
+
+
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background:url("./img/contact.jpg") ;
+  background-size: cover;
+}
+
+.contact .contant {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .contant h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+.contact .contant p {
+  font-weight: 300;
+  color: #fff;
+}
+.co-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.co-container .contactinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.co-container .contactinfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.co-container .contactinfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+
+.co-container .contactinfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.co-container .contactinfo .box .text h3 {
+  font-weight: 500;
+  color: #00bcd4;
+}
+
+.contactfrom {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactfrom h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactfrom .inputbox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactfrom .inputbox input,
+.contactfrom .inputbox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+.contactfrom .inputbox button {
+  margin: 25px 0;
+  display: inline-flex;
+  border: 2px solid #69a6ce;
+  color: #69a6ce;
+  font-weight: 200;
+  padding: 10px 25px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.contactfrom .inputbox button:hover {
+  background: #69a6ce;
+  color: #fff;
+}
+
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
+
+    }
+    .co-container{
+        flex-direction: column;
+
+    }
+    .co-container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .co-container .contactinfo,
+    .contactfrom{
+        width: 100%;
+    }
+
+}
